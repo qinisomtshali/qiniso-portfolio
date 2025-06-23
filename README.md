@@ -4,9 +4,7 @@ Welcome to my personal developer portfolio! This site showcases my work as a Pow
 
 ## 🌐 Live Demo
 
-**🔗 [View Portfolio](https://yourusername.github.io/your-repo-name/)**  
-_Replace with your actual GitHub Pages URL_
-
+**🔗 [View Portfolio](https://qinisomtshali.github.io/qiniso-portfolio/)**  
 ---
 
 ## 🚀 About
