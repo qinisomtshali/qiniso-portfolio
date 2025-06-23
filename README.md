@@ -32,7 +32,7 @@ This portfolio highlights:
 
 | Hero Section | Project Cards |
 |--------------|---------------|
-| ![Hero](Images/hero-screenshot.png) | ![Projects](Images/projects-screenshot.png) |
+| ![Hero](Images/hero-screenshot.png) | ![Projects](Images/leave-request.png) |
 
 _(Optional: Add real screenshots from your portfolio here)_
 
