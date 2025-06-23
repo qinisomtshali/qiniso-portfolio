@@ -33,9 +33,6 @@ This portfolio highlights:
 | Hero Section | Project Cards |
 |--------------|---------------|
 | ![Hero](Images/hero.png) | ![Projects](Images/leave-request.png) |
-
-_(Optional: Add real screenshots from your portfolio here)_
-
 ---
 
 ## 📄 License
