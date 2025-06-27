@@ -13,6 +13,8 @@
         }
 
         :root {
+            --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --secondary-gradient: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
             --primary-color: #007aff;
             --secondary-color: #1d1d1f;
             --accent-color: #0a84ff;
@@ -59,6 +61,7 @@
             font-weight: 700;
             background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
             -webkit-background-clip: text;
+            background-clip: text;
             -webkit-text-fill-color: transparent;
         }
 
@@ -149,6 +152,7 @@
             margin-bottom: 1rem;
             background: linear-gradient(135deg, var(--text-primary), var(--accent-color));
             -webkit-background-clip: text;
+            background-clip: text;
             -webkit-text-fill-color: transparent;
             animation: slideUp 1s ease-out;
         }
@@ -220,6 +224,7 @@
             margin-bottom: 3rem;
             background: linear-gradient(135deg, var(--text-primary), var(--accent-color));
             -webkit-background-clip: text;
+            background-clip: text;
             -webkit-text-fill-color: transparent;
         }
 
@@ -1054,6 +1059,7 @@
         font-weight: 800;
         background: linear-gradient(135deg, #00d4ff, #0078ff);
         -webkit-background-clip: text;
+        background-clip: text;
         -webkit-text-fill-color: transparent;
         }
 
@@ -1337,32 +1343,32 @@
         <p class="section-subtitle">Comprehensive Power Platform solutions tailored to your business needs</p>
         <div class="services-grid">
             <div class="service-card fade-in">
-                <div class="service-icon">📱</div>
+                <div class="service-icon"><img src="Images/logos/powerapp.png" alt="Power Apps" class="skill-logo"></div>
                 <h3>Power Apps Development</h3>
                 <p>Custom canvas and model-driven applications tailored to your business needs, with responsive design and seamless user experience.</p>
             </div>
             <div class="service-card fade-in">
-                <div class="service-icon">⚡</div>
+                <div class="service-icon"><img src="Images/logos/MicrosoftPowerAutomate.png" alt="Power Apps" class="skill-logo"></div>
                 <h3>Power Automate Solutions</h3>
                 <p>Automated workflows and business processes that eliminate manual tasks and improve operational efficiency.</p>
             </div>
             <div class="service-card fade-in">
-                <div class="service-icon">📊</div>
+                <div class="service-icon"><img src="Images/logos/powerbi.png" alt="Power Apps" class="skill-logo"></div>
                 <h3>Power BI Analytics</h3>
                 <p>Interactive dashboards and reports that transform raw data into actionable business insights and KPIs.</p>
             </div>
             <div class="service-card fade-in">
-                <div class="service-icon">🤖</div>
+                <div class="service-icon"><img src="Images/logos/powervirtualagents.png" alt="Power Apps" class="skill-logo"></div>
                 <h3>Power Virtual Agents</h3>
                 <p>Intelligent chatbots that enhance customer service and automate common inquiries across multiple channels.</p>
             </div>
             <div class="service-card fade-in">
-                <div class="service-icon">🔗</div>
+                <div class="service-icon"><img src="Images/logos/migration.png" alt="Power Apps" class="skill-logo"></div>
                 <h3>Integration & Migration</h3>
                 <p>Seamless integration with existing systems and migration from legacy solutions to modern Power Platform architecture.</p>
             </div>
             <div class="service-card fade-in">
-                <div class="service-icon">🛡️</div>
+                <div class="service-icon"><img src="Images/logos/security.png" alt="Power Apps" class="skill-logo"></div>
                 <h3>Governance & Security</h3>
                 <p>Implementation of Power Platform governance frameworks, security best practices, and compliance solutions.</p>
             </div>
@@ -1446,7 +1452,7 @@
         <h2 class="section-title fade-in">Featured Projects</h2>
         <p class="section-subtitle">Showcasing innovative solutions that have transformed businesses</p>
         <div class="projects-grid">
-            <div class="project-card fade-in" onclick="openModal('Employee Onboarding System', 'Images/onboarding.png', 'Comprehensive Power Apps solution with automated workflows for new hire processes. Reduced onboarding time by 60%. Includes approval logic, email integration, and SharePoint logging.', 'https://qinisomtshali.github.io/qiniso-portfolio/')">
+            <div class="project-card fade-in" onclick="openModal('Employee Onboarding System', 'Images/onboarding.png', 'Comprehensive Power Apps solution with automated workflows for new hire processes. Reduced onboarding time by 60%. Includes approval logic, email integration, and SharePoint logging.', 'https://github.com/qinisomtshali/')">
 
                 <div class="project-image">
                 <img src="Images/onboarding.png" alt="Employee Onboarding Screenshot" />
@@ -1467,7 +1473,7 @@
                 'Leave Request Management System',
                 'Images/leave-request.png',
                 'A Power Apps leave management system with real-time balance tracking, multi-role access, Teams integration, and compliance features like sick note enforcement.',
-                'https://qinisomtshali.github.io/qiniso-portfolio/'
+                'https://github.com/qinisomtshali/'
             )">
                 <div class="project-image">
                 <img src="Images/leave-request.png" alt="Leave Request App Screenshot" />
@@ -1489,7 +1495,7 @@
                 'QA Payment File Approval Flow',
                 'Images/qa-flow.png',
                 'An automated SharePoint-triggered flow that validates uploaded payment files, applies metadata, tracks approvals, and enforces audit-ready compliance.',
-                'https://qinisomtshali.github.io/qiniso-portfolio/'
+                'https://github.com/qinisomtshali/'
             )">
                 <div class="project-image">
                 <img src="Images/qa-flow.png" alt="QA Flow Screenshot" />
@@ -1519,7 +1525,7 @@
 					</div>
 					<h3>Microsoft Certified: Power Platform Developer Associate</h3>
 					<p>PL-400 - Demonstrates expertise in designing, developing, and implementing Power Platform solutions.</p>
-                    <a href="https://www.credly.com/badges/your-pl400-id" target="_blank" class="verify-button">
+                    <a href="https://learn.microsoft.com/api/credentials/share/en-us/QINISOMtshali-2486/40EC2E8886132498?sharingId=BA211BD8093A5B2" target="_blank" class="verify-button">
                         <img src="Images/logos/verify.png" alt="Verify" class="button-icon"> Verify</a>
 				</div>
 
@@ -1539,7 +1545,7 @@
 					</div>
 					<h3>Microsoft Certified: Azure Fundamentals</h3>
 					<p>AZ-900 – Demonstrates foundational knowledge of cloud concepts, Azure services, and pricing.</p>
-                    <a href="https://www.credly.com/badges/your-pl400-id" target="_blank" class="verify-button">
+                    <a href="https://learn.microsoft.com/api/credentials/share/en-us/QINISOMtshali-2486/D2CE194F303186CF?sharingId=BA211BD8093A5B2" target="_blank" class="verify-button">
                         <img src="Images/logos/verify.png" alt="Verify" class="button-icon"> Verify</a>
 				</div>
 
@@ -1549,7 +1555,7 @@
 					</div>
 					<h3>Microsoft Certified: Dynamics 365 Sales Functional Consultant</h3>
 					<p>MB-210 – Expertise in implementing Dynamics 365 Sales, lead management, and automation.</p>
-                    <a href="https://www.credly.com/badges/your-pl400-id" target="_blank" class="verify-button">
+                    <a href="https://learn.microsoft.com/api/credentials/share/en-us/QINISOMtshali-2486/4C9B90542B2D3AF4?sharingId=BA211BD8093A5B2" target="_blank" class="verify-button">
                         <img src="Images/logos/verify.png" alt="Verify" class="button-icon"> Verify</a>
 				</div>
 
@@ -1559,7 +1565,7 @@
 					</div>
 					<h3>LFS162: Intro to DevOps and Site Reliability Engineering</h3>
 					<p>Issued by The Linux Foundation – Covers DevOps, CI/CD, IaC, Kubernetes, and observability.</p>
-                    <a href="https://www.credly.com/badges/your-pl400-id" target="_blank" class="verify-button">
+                    <a href="https://www.credly.com/badges/501ff19b-9ea8-40f5-8bad-fc9992962230/" target="_blank" class="verify-button">
                         <img src="Images/logos/verify.png" alt="Verify" class="button-icon"> Verify</a>
 				</div>
 
@@ -1569,7 +1575,7 @@
 					</div>
 					<h3>Microsoft Certified: Power Platform Functional Consultant</h3>
 					<p>PL-200 - Covers configuration, solution design, and implementation across Power Platform.</p>
-                    <a href="https://www.credly.com/badges/your-pl400-id" target="_blank" class="verify-button">
+                    <a href="https://learn.microsoft.com/api/credentials/share/en-us/QINISOMtshali-2486/B7DCC6C56D3BD577?sharingId=BA211BD8093A5B2" target="_blank" class="verify-button">
                         <img src="Images/logos/verify.png" alt="Verify" class="button-icon"> Verify</a>
 				</div>
 			</div>
@@ -1611,11 +1617,35 @@
         <div class="timeline-item fade-in">
             <div class="timeline-dot"></div>
             <div class="timeline-content">
+            <div class="timeline-date">FEB 2023 – JAN 2024</div>
+            <div class="timeline-title">Machine Operator</div>
+            <div class="timeline-company">Ford Motor Company of Southern Africa</div>
+            <div class="timeline-description">
+                Gained hands-on experience in the automotive manufacturing sector, operating industrial machinery with precision and adhering to strict quality and safety protocols. Contributed to streamlined production workflows and efficient reporting systems.
+            </div>
+            </div>
+        </div>
+
+        <div class="timeline-item fade-in">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
             <div class="timeline-date">JUN 2022 – DEC 2022</div>
             <div class="timeline-title">Multimedia Engineer Intern</div>
             <div class="timeline-company">Mbula RND</div>
             <div class="timeline-description">
                 Designed and developed an inclusive video game for the deaf community using Unity, C#, and Azure. Integrated multimedia elements and game mechanics to improve accessibility and promote digital inclusion.
+            </div>
+            </div>
+        </div>
+
+        <div class="timeline-item fade-in">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+            <div class="timeline-date">MAR 2021 – MAY 2022</div>
+            <div class="timeline-title">Technical Lab Tutor</div>
+            <div class="timeline-company">Tshwane University of Technology</div>
+            <div class="timeline-description">
+                Provided academic support in multimedia computing labs, mentoring students and facilitating practical sessions in animation, coding, and digital design. Developed strong foundations in education and technical communication.
             </div>
             </div>
         </div>
@@ -1685,7 +1715,7 @@
 					</div>
 					<div class="contact-item">
 						<i class="fab fa-linkedin"></i>
-						<p><a href="https://linkedin.com/in/qiniso-mtshali-532394173" target="_blank">linkedin.com/in/qiniso-mtshali</a></p>
+						<p><a href="https://linkedin.com/in/qiniso-mtshali-532394173" target="_blank">LinkedIn</a></p>
 					</div>
 					<div class="contact-item">
 						<i class="fas fa-map-marker-alt"></i>
